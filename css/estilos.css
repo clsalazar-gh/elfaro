@@ -99,26 +99,6 @@ h3 {
     line-height: 1.7;
 }
 
-/* TITULOS PRINCIPALES INTERNOS  */
-
-#deporte-portada h2,
-#negocios-portada h2 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 54px;
-    line-height: 1.1;
-    color: #000000;
-    margin: 0 0 15px 0;
-    text-transform: uppercase;
-}
-
-#deporte-portada p,
-#negocios-portada p {
-    font-size: 18px;
-    line-height: 1.7;
-    color: #222222;
-    margin: 0;
-}
-
 /* PORTADAS INTERNAS (SECCIONES) */
 
 .portada-seccion h2 {
@@ -210,6 +190,10 @@ footer {
     .resumen,
     #inicio p {
         font-size: 16px;
+    }
+
+    .portada-seccion h2 {
+        font-size: 30px;
     }
 
     nav a {
